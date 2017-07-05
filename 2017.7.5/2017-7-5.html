@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		//获取数据类型
+		var type = function(obj){
+			//数据类型
+			var classList = {
+					"[object Boolean]": "boolean",
+					 "[object Number]": "number",
+					 "[object String]": "string",
+					 "[object Function]": "function",
+					 "[object Array]": "array",
+					 "[object Date]": "date",
+					 "[object RegExp]": "regexp",
+					 "[object Object]": "object",
+					 "[object Error]": "error",
+					 "[object Symbol]": "symbol"
+			}
+			var _tostring = Object.prototype.toString;
+			var type = (typeof obj == "object" || typeof object == "function"?
+				classList[_tostring.call(obj)]  || 	typeof obj : typeof obj)
+			return type;
+		}
+	</script>
+</body>
+</html>
