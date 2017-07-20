@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<script>
 		//获取数据类型
 		var type = function(obj){
 			//数据类型
@@ -43,14 +35,3 @@
 			})(args)
 			return list;
 		}
-		var F1 = function(){};
-		var F2 = function(){};
-		var F3 = function(){};
-		addFuncList(F1,[F2,F3]);
-
-
-
-
-	</script>
-</body>
-</html>
